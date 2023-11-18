@@ -1,0 +1,75 @@
+[
+  {
+    "code": "30356",
+    "name": "Hot Dog Stand polybag",
+    "theme": "City",
+    "bricks": 43,
+    "minifigures": [
+      {
+        "id": "cty0878",
+        "name": "Hot Dog Chef",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "code": "30360",
+    "name": "Arctic Ice Saw polybag",
+    "theme": "City",
+    "bricks": 43,
+    "minifigures": [
+      {
+        "id": "cty0903",
+        "name": "Arctic Explorer - Ski Beanie Hat, Light Blue Ski Goggles",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "code": "30381",
+    "name": "Imperial TIE Fighter - Mini polybag",
+    "theme": "Star Wars",
+    "bricks": 42,
+    "minifigures": [
+    ]
+  },
+  {
+    "code": "10258",
+    "name": "London Bus",
+    "theme": "Creator Expert",
+    "bricks": 1686,
+    "minifigures": [
+    ]
+  },
+  {
+    "code": "10253",
+    "name": "Big Ben",
+    "theme": "Creator Expert",
+    "bricks": 4163,
+    "minifigures": [
+    ]
+  },
+  {
+    "code": "75945",
+    "name": "Expecto Patronum",
+    "theme": "Harry Potter",
+    "bricks": 103,
+    "minifigures": [
+      {
+        "id": "hp155",
+        "name": "Dementor, Black with Black Cape",
+        "quantity": 2
+      },
+      {
+        "id": "hp175",
+        "name": "Harry Potter, Dark Blue Open Jacket, Dark Tan Medium Legs",
+        "quantity": 1
+      },
+      {
+        "id": "hp174",
+        "name": "Sirius Black - Dark Brown Hair, Dark Bluish Gray Jacket over Tattered Striped Shirt, Printed Legs",
+        "quantity": 1
+      }
+    ]
+  }
+]
