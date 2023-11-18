@@ -55,7 +55,12 @@ public class LegoRepository
 
     @Override
     public Map<Integer, Set<LegoSet>> getSetsByPieces() {
-        return null;
+        Map<Integer, Set<LegoSet>> result = new HashMap<>();
+        for (LegoSet legoSet : getAll()) {
+            result.putIfAbsent(legoSet.getBricks(), new HashSet<>());
+            result.get(legoSet.getBricks()).add(legoSet);
+        }
+        return result;
     }
 
     public static void main(String[] args) throws IOException {

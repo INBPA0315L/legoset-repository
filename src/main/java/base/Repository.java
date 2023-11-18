@@ -2,6 +2,7 @@ package base;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.NonNull;
+import lombok.SneakyThrows;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -24,8 +25,9 @@ public abstract class Repository<T> {
      * @param clazz the type of your entity (first class)
      * @throws IOException if an I/O error happens
      */
+    @SneakyThrows
     protected Repository(
-            @NonNull final Class<T> clazz) throws IOException {
+            @NonNull final Class<T> clazz) {
 
         this.entities = MAPPER.readValue(
                 Repository.class.getResourceAsStream("../data.json"),
