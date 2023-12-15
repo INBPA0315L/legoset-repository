@@ -34,7 +34,7 @@ public interface Queries<T, U, V extends Enum<V>> {
      *
      * @return the sorted list of LEGO sets
      */
-    List<LegoSet> getSetsOrderByCountOfBricksDescThenByNumber();
+    List<T> getSetsOrderByCountOfBricksDescThenByNumber();
 
     /**
      * Returns the name of each LEGO set that belongs to the given theme.
